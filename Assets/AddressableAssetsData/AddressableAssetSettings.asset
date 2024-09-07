@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 5a30fa52eda5dd440861de78721d75b4
+  m_currentHash:
+    serializedVersion: 2
+    Hash: 0a330e7d96fb227cdd48fdf21e0932ba
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 1
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 1
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 3b08227f7c764604892305979c53415c
+  m_RemoteCatalogLoadPath:
+    m_Id: bdedab102c69e34428b7a2ab5a015d25
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 681bf779e3c84d2499a9a70cf9a5e980, type: 2}
+  - {fileID: 11400000, guid: 471dd27c429d4494583dd9e97e5e8616, type: 2}
+  - {fileID: 11400000, guid: f9e39f10c695c004591fdb011ca1fac4, type: 2}
+  - {fileID: 11400000, guid: 60c151e33b6e99741895eac31b39ca61, type: 2}
+  - {fileID: 11400000, guid: bbfefc0573c2ace4a926699b2d41c7ef, type: 2}
+  - {fileID: 11400000, guid: e9e8e48a596e35a4f91b39313394df9b, type: 2}
+  - {fileID: 11400000, guid: de5530718b4e3a146b8f8ae605c8e0c3, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 5e59fc97631799a4f92494ac99e62fce
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 8845f173511e3da489a161a853d1bf06
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 3628a4868a703b240829fa3b573ae194
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: b087a408f63e8af49b2f16f6825b75c3
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 3b08227f7c764604892305979c53415c
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: bdedab102c69e34428b7a2ab5a015d25
+        m_Value: https://playbloomverse.nyc3.digitaloceanspaces.com/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: 910c858228a42934c9cf31285d0a8806
+      m_ProfileName: Local
+      m_Values:
+      - m_Id: 8845f173511e3da489a161a853d1bf06
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 3628a4868a703b240829fa3b573ae194
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: b087a408f63e8af49b2f16f6825b75c3
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 3b08227f7c764604892305979c53415c
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: bdedab102c69e34428b7a2ab5a015d25
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+    - m_InheritedParent: 
+      m_Id: ef9de54e278fe23449ef45276e58bac7
+      m_ProfileName: Stage
+      m_Values:
+      - m_Id: 8845f173511e3da489a161a853d1bf06
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 3628a4868a703b240829fa3b573ae194
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: b087a408f63e8af49b2f16f6825b75c3
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 3b08227f7c764604892305979c53415c
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: bdedab102c69e34428b7a2ab5a015d25
+        m_Value: https://playbloomverse.nyc3.digitaloceanspaces.com/[BuildTarget]stage
+    m_ProfileEntryNames:
+    - m_Id: 8845f173511e3da489a161a853d1bf06
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 3628a4868a703b240829fa3b573ae194
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: b087a408f63e8af49b2f16f6825b75c3
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 3b08227f7c764604892305979c53415c
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: bdedab102c69e34428b7a2ab5a015d25
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - Material
+    - FusionScenes
+    - AddressableScenes
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: a720ff4a9ad4fac48b44e3467b39af42, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 9037e24771c023e469e1ca3c58e7d175, type: 2}
+  - {fileID: 11400000, guid: 5e9bdcd216e4ebd4297702aed168e243, type: 2}
+  - {fileID: 11400000, guid: 491e75b6c2e2c474f8ef111938f05cb1, type: 2}
+  - {fileID: 11400000, guid: 4ad78b5ca7f68894cb337409e67db1a9, type: 2}
+  m_ActiveProfileId: 5e59fc97631799a4f92494ac99e62fce
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
+    m_PingTimeoutInMilliseconds: 5000

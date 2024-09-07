@@ -1,0 +1,432 @@
+{
+    "rigGroupAddresses": [
+        {
+            "address": "MaleRig",
+            "_labels": []
+        }
+    ],
+    "wardrobeAddresses": [
+        {
+            "address": "MaleHeadBodyExpressions.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleLegsBody.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleTorsoBody.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleUnderpants01.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleTanktop01.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleRightHandBody.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleRightFootBody.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleLeftFootBody.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleLeftHandBody.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleHair01.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleEyebrows.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleRightEye.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        },
+        {
+            "address": "MaleLeftEye.wardrobe",
+            "_labels": [
+                "Male"
+            ]
+        }
+    ],
+    "wardrobeGUIDs": [],
+    "partAddresses": [],
+    "properties": [
+        {
+            "propertyType": 5,
+            "apply": false,
+            "values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "19643677b083b1642854d01ed4c47d38",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 5,
+            "apply": false,
+            "values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "d9af19fffac95e349ba45478585af318",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 1,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "68f21bfc187783f45858b4e3112c9e37",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": true,
+            "values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "39df5a2bf3a734347934625cfd945370",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": true
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "24a918952a670a240979f2ee06aabdbc",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 1,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "6fb7078eca32cf141afcc57e6d135b55",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "58aaaceaaf6234141a21fee28074bffe",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 5,
+            "apply": false,
+            "values": {
+                "x": 0.40560001134872439,
+                "y": 0.07970000058412552,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "ed6a5746807c8fa4598987ce4bb25774",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 1,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "a3ba26cfa7fdd3f489de1e80a5a4f34b",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 1.0,
+                "w": 1.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "a733b4017ae5b434980feba2f9125256",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": true
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "74767963cb92049499e0b63dcbee8933",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "f43dbe6a4727caa4fbf7481be8392fa2",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "e2d54fb0ab18a154d83e104a497a8d72",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "5d035720a4c39384ab0a02efbee98200",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "9b7f1d8cebffd874d8fa53a5f4317ad2",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "23bdb9d0f9db70e49ab53a5b042d2a6c",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": true
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 1,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "740cec8d726c4f54699ca6293ef70fe3",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": true
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "8b12f74437c246c42a41c529e26a27db",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "bb4b5db0c2815224f854ed9af6091815",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": false
+            },
+            "materialIndices": 0
+        },
+        {
+            "propertyType": 0,
+            "apply": false,
+            "values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "setAssetReference": {
+                "m_AssetGUID": "3a024c77915a1114088a86a6ca1f7c7a",
+                "m_SubObjectName": "",
+                "m_SubObjectType": "",
+                "m_EditorAssetChanged": true
+            },
+            "materialIndices": 0
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1cb7626f768cc54eb13f18b9b9196f0, type: 3}
+  m_Name: GummyGambolSettings
+  m_EditorClassIdentifier: 
+  m_LevelMaterials:
+  - {fileID: 2100000, guid: e0d5414d7aac9af4aaec1004c8c2523c, type: 2}
+  - {fileID: 2100000, guid: 094e4fd0da7c3b94e817c7f10346c972, type: 2}
+  - {fileID: 2100000, guid: 1b983a2ca58133c41ad7a34370bc36d6, type: 2}
+  - {fileID: 2100000, guid: 094e4fd0da7c3b94e817c7f10346c972, type: 2}
+  - {fileID: 2100000, guid: e0d5414d7aac9af4aaec1004c8c2523c, type: 2}
+  m_LevelSpeeds:
+  - 10
+  - 12.5
+  - 15
+  - 17.5
+  - 20
+  m_LevelPlanes: 1400000014000000140000001400000014000000
+  m_InitialPlaneCount: 5
+  m_ChangeLaneSpeed: 0.25
+  m_StartingCountdown: 3
+  m_PlaneOffset: 10
+  m_LevelOffset: 100
+  m_RouletteTimer: 1
+  m_PlaneObstacleProbability:
+  - 0.75
+  - 0.7
+  - 0.65
+  - 0.6
+  - 0.5
+  m_PlaneObstacleDifficultyPool:
+  - m_PlaneObstacleDifficultySetups:
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 00000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 1
+        m_ObstaclesToActivate: 00000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 2
+        m_ObstaclesToActivate: 00000000
+  - m_PlaneObstacleDifficultySetups:
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 00000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 1
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 00000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 00000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 0000000001000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 1
+        m_ObstaclesToActivate: 0000000001000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 2
+        m_ObstaclesToActivate: 0000000001000000
+  - m_PlaneObstacleDifficultySetups:
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 00000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 0000000001000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 1
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 0000000001000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 00000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 0000000001000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 00000000
+  - m_PlaneObstacleDifficultySetups:
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 0000000001000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 1
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 0000000001000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 0000000001000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 00000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 00000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 0000000001000000
+  - m_PlaneObstacleDifficultySetups:
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 00000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 0000000001000000
+    - m_ObstacleLaneDatas:
+      - m_Lane: 0
+        m_ObstaclesToActivate: 00000000
+      - m_Lane: 1
+        m_ObstaclesToActivate: 0000000001000000
+      - m_Lane: 2
+        m_ObstaclesToActivate: 0000000001000000
+  m_ProductObstacleProbability:
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  m_ProductSprites:
+  - {fileID: 21300000, guid: 64dac9ceb6e37414a8beb47b26ef1a80, type: 3}
+  - {fileID: 21300000, guid: 9e6c259a77871b94d8c92bcffdf20017, type: 3}
+  - {fileID: 21300000, guid: a623228f93e6e7b4891e60be8aa3275f, type: 3}
+  - {fileID: 21300000, guid: 845ab3825d0e1184a814948bff76461b, type: 3}
+  - {fileID: 21300000, guid: ad7d5f7dcefb72643abea5811b1a55fa, type: 3}
+  - {fileID: 21300000, guid: 902e6f2b3e3ed6745a001fef3960a03c, type: 3}
+  - {fileID: 21300000, guid: c34a2a3f27de232439237cb9d1cd063e, type: 3}
+  - {fileID: 21300000, guid: 71569b3c1bca5944d958c35d7e4d9129, type: 3}
+  m_ProductMaterials:
+  - {fileID: 2100000, guid: 8ef94a18885bf7848a60825f1f0b47ce, type: 2}
+  - {fileID: 2100000, guid: 4a6628df2792caf44a2148c33ca65d25, type: 2}
+  - {fileID: 2100000, guid: e8442aaa3e567ff40a2b7a46f57874f9, type: 2}
+  - {fileID: 2100000, guid: a7c1457a42c373b488110f2479935f2f, type: 2}
+  - {fileID: 2100000, guid: 1a3113204d4fdac42a75fc4939bedac3, type: 2}
+  - {fileID: 2100000, guid: 560a29df1af2a4241a073999d11da30f, type: 2}
+  - {fileID: 2100000, guid: 01a11adf8cd83e649bcc962bd1b4e241, type: 2}
+  - {fileID: 2100000, guid: 4824c799876909e43a1a29d83b759db1, type: 2}

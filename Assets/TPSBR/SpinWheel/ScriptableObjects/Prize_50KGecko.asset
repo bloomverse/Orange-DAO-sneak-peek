@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1cf3944a22bf7446ab629ba00e36a65, type: 3}
+  m_Name: Prize_50KGecko
+  m_EditorClassIdentifier: 
+  image: {fileID: 2100000, guid: 282ee0f6a3480f74388600ca1411e357, type: 2}
+  description: 50K
+  longdescription: 50K $GECKO
+  color: {r: 0, g: 0.49991885, b: 0.8207547, a: 0}
+  Probability: 2

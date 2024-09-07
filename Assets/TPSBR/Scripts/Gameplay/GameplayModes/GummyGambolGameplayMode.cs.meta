@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 498d1a5f64ddb414183e07be9d7b8da6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Runner: {instanceID: 0}
+  - Object: {instanceID: 0}
+  - tutorialObject: {fileID: 8872464311043766230, guid: 4b573f2dbd159f945a170dcab7091882, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

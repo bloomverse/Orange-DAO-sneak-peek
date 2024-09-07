@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d671857a3d898af44a6648a7fb09ec93, type: 3}
+  m_Name: AgentSettings
+  m_EditorClassIdentifier: 
+  _agents:
+  - _id: Lilly
+    _displayName: 'Lilly "Bloom" '
+    _description: Genius tech developer and inventor, Lilly was the first person
+      contacted by Bloom1 to organize civil resistance against the Metatron AI. Always
+      ready with the latest gadgets and advanced weaponry, there's no tactical riddle
+      she can't solve.
+    _icon: {fileID: 21300000, guid: 8c9bd27e8b474fc48986329ae8ec2c60, type: 3}
+    _agentPrefab:
+      RawGuidValue: 3958f82807baee54192fa52b8396f365
+    _menuAgentPrefab: {fileID: 2529299778790674133, guid: 79de307f9dac0ec49a1b24468a71daa3, type: 3}
+    _available: 1
+  - _id: SCI_FI
+    _displayName: Coinus
+    _description: From unfit software programmer to full blown resistance juggernaut,
+      Coinus went from developing mobile apps for greedy companies to devoting his
+      life to a cause he really believed in. First in the line of fire, first into
+      hostile land, Coinus leads the way.
+    _icon: {fileID: 21300000, guid: c0adae223c7dd1e468a451de557e9902, type: 3}
+    _agentPrefab:
+      RawGuidValue: 00000000000000000000000000000000
+    _menuAgentPrefab: {fileID: 2529299778790674133, guid: d34f4acec19198a43bf3b6b25225bad6, type: 3}
+    _available: 1
+  - _id: IMSO
+    _displayName: IMSO EVOLVED
+    _description: 'IMSO is a whole gaming universe and your IMSO: Evolved Chimp NFT
+      will have access to all of it.'
+    _icon: {fileID: 21300000, guid: 87f9608406105164684113631db52787, type: 3}
+    _agentPrefab:
+      RawGuidValue: 00000000000000000000000000000000
+    _menuAgentPrefab: {fileID: 2529299778790674133, guid: 47542a84dfbcd39418c5091944de22ba, type: 3}
+    _available: 1
+  - _id: Ashley
+    _displayName: Ashley
+    _description: Ashley Dcan
+    _icon: {fileID: 21300000, guid: 10804a5bd1d397b4e9287a09f947e1dc, type: 3}
+    _agentPrefab:
+      RawGuidValue: 00000000000000000000000000000000
+    _menuAgentPrefab: {fileID: 2529299778790674133, guid: 17b87bb31b176dc40a0f225ae677d9fb, type: 3}
+    _available: 0
+  - _id: STACHE
+    _displayName: Stache
+    _description: 'The OG Champion of WEB3 Gaming. '
+    _icon: {fileID: 21300000, guid: 2d276762933e6cd469f526bf4ceec6bf, type: 3}
+    _agentPrefab:
+      RawGuidValue: 00000000000000000000000000000000
+    _menuAgentPrefab: {fileID: 2529299778790674133, guid: 2146c9831ec77954fb4d4bb34227aa71, type: 3}
+    _available: 0
+  - _id: Agent.Marine
+    _displayName: Marine
+    _description: 'The OG Champion of WEB3 Gaming. '
+    _icon: {fileID: 21300000, guid: 2d276762933e6cd469f526bf4ceec6bf, type: 3}
+    _agentPrefab:
+      RawGuidValue: dde71a29921c63d41b57eac030f6a83a
+    _menuAgentPrefab: {fileID: 2529299778790674133, guid: 2146c9831ec77954fb4d4bb34227aa71, type: 3}
+    _available: 0

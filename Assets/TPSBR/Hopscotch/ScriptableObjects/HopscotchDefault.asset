@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb41fbdf0c3b15f479891dbfe769345a, type: 3}
+  m_Name: HopscotchDefault
+  m_EditorClassIdentifier: 
+  m_ScorePerCoin: 10
+  m_ScorePerCheckpoint: 25
+  m_ScorePerRun: 100
+  m_CheckpointPlatformPrefab: {fileID: 5305372096600595193, guid: 673da39c88fb23845b275b9196a7fc0f, type: 3}
+  m_BloomieCoinPrefab: {fileID: 5587633752818057185, guid: 65141c1ea45d8c24ebf1663f8bb7afe4, type: 3}
+  m_MaxLevel: 10
+  m_CameraFarClippingPlane: 200
+  m_MovingPlatformPrefab: {fileID: 5305372096600595193, guid: 227e0bc8ee32dff4a819bcc4d7d4ca50, type: 3}
+  m_StartingPosition: {x: 0, y: -3, z: 15}
+  m_StartingRotation: {x: -90, y: 0, z: 0}
+  m_Platforms:
+  - m_Material: {fileID: 2100000, guid: 023b539f355ab444cbee903a49c88c31, type: 2}
+    m_Direction: {x: -1, y: 0, z: 0}
+    m_NextPlatformOffset: {x: 0, y: 0, z: 10}
+    m_Radius: 10
+    m_Speed: 3
+    m_MaxSpeed: 6
+  - m_Material: {fileID: 2100000, guid: b7ab307811e32dd48b1bce4a52b5eb8a, type: 2}
+    m_Direction: {x: 1, y: 0, z: 0}
+    m_NextPlatformOffset: {x: 0, y: 0, z: 10}
+    m_Radius: 10
+    m_Speed: 3.5
+    m_MaxSpeed: 6.5
+  - m_Material: {fileID: 2100000, guid: 31055060ba9b4f14094a7ed7c5dabe3f, type: 2}
+    m_Direction: {x: -1, y: 0, z: 0}
+    m_NextPlatformOffset: {x: 0, y: 0, z: 10}
+    m_Radius: 10
+    m_Speed: 4
+    m_MaxSpeed: 7
+  - m_Material: {fileID: 2100000, guid: 8b40b983a64b13e4fa17ca452cc39c3f, type: 2}
+    m_Direction: {x: 1, y: 0, z: 0}
+    m_NextPlatformOffset: {x: 0, y: 0, z: 10}
+    m_Radius: 10
+    m_Speed: 4.5
+    m_MaxSpeed: 7.5
+  - m_Material: {fileID: 2100000, guid: bd491f391b8fa7b42aa270899312de58, type: 2}
+    m_Direction: {x: -1, y: 0, z: 0}
+    m_NextPlatformOffset: {x: 0, y: 0, z: 10}
+    m_Radius: 10
+    m_Speed: 5
+    m_MaxSpeed: 8
+  - m_Material: {fileID: 2100000, guid: d47583e23af8c28439f7e95f3fab6269, type: 2}
+    m_Direction: {x: 1, y: 0, z: 0}
+    m_NextPlatformOffset: {x: 0, y: 0, z: 10}
+    m_Radius: 10
+    m_Speed: 5.5
+    m_MaxSpeed: 8.5
+  m_ProductPuzzlePrefab: {fileID: 4380600291952904847, guid: 452dade1fd9616149a9b53546954c446, type: 3}
+  m_PuzzleMaterials:
+  - {fileID: 2100000, guid: 8ef94a18885bf7848a60825f1f0b47ce, type: 2}
+  - {fileID: 2100000, guid: 4a6628df2792caf44a2148c33ca65d25, type: 2}
+  - {fileID: 2100000, guid: e8442aaa3e567ff40a2b7a46f57874f9, type: 2}
+  - {fileID: 2100000, guid: a7c1457a42c373b488110f2479935f2f, type: 2}
+  - {fileID: 2100000, guid: 1a3113204d4fdac42a75fc4939bedac3, type: 2}
+  - {fileID: 2100000, guid: 560a29df1af2a4241a073999d11da30f, type: 2}
+  - {fileID: 2100000, guid: 01a11adf8cd83e649bcc962bd1b4e241, type: 2}
+  - {fileID: 2100000, guid: 4824c799876909e43a1a29d83b759db1, type: 2}
+  m_ProductPuzzleZOffset: 15
+  m_ProductPuzzleCount: 5
+  m_JetpackLevel: {fileID: 8135276114181365495, guid: 33968279646f65d43a2823f2b4e1539b, type: 3}
+  m_JetpackPowerUp: {fileID: 260257349570690126, guid: a32b98ca1209d52428f8a00e4f34dd85, type: 3}
+  m_JetpackBarMaxValue: 7
+  m_RingSpeeds:
+  - 0
+  - 0
+  - 2
+  - 2
+  - 2
+  m_RingMaxSpeeds:
+  - 0
+  - 0
+  - 6
+  - 6
+  - 6
+  m_BoostLevel: {fileID: 862819392471272458, guid: 95ab1c80d68d4fe4295d656ae5286af8, type: 3}
+  m_BoostPowerUp: {fileID: 260257349570690126, guid: 211b994e70dd68542be7d04c63cbb3e9, type: 3}
+  m_GummyProjectilePrefab: {fileID: 7411086288618025548, guid: 02fbcb3875fa56b47b8f89038c145726, type: 3}
+  m_GummyProjectileMaterials:
+  - {fileID: 2100000, guid: d47583e23af8c28439f7e95f3fab6269, type: 2}
+  - {fileID: 2100000, guid: 023b539f355ab444cbee903a49c88c31, type: 2}
+  - {fileID: 2100000, guid: b7ab307811e32dd48b1bce4a52b5eb8a, type: 2}
+  - {fileID: 2100000, guid: 31055060ba9b4f14094a7ed7c5dabe3f, type: 2}
+  - {fileID: 2100000, guid: 8b40b983a64b13e4fa17ca452cc39c3f, type: 2}
+  - {fileID: 2100000, guid: bd491f391b8fa7b42aa270899312de58, type: 2}
+  m_GummyProjectileLaunchSpeed: 50
+  m_GummyProjectileLaunchMaxSpeed: 150
+  m_GummyProjectileLaunchAngle: 1.40625
+  m_ProjectileLaunchInterval: 0.67
+  m_BoostBarMaxValue: 10
+  m_GummyProjectileDespawnTime: 20
+  m_GummyProjectileMinDespawnTime: 7.5
+  m_GummyProjectilePoolCount: 30
+  m_EndPlatformPrefab: {fileID: 5305372096600595193, guid: 21b28bb17094d3549beda620c8908632, type: 3}
+  m_BoostPowerUpLinePrefab: {fileID: 3864087547440310708, guid: ce7153056ac4c6b4d8c647343df8d8ac, type: 3}
+  m_BoostPowerUpLines: 4
+  m_BoostPowerUpDistance: 100

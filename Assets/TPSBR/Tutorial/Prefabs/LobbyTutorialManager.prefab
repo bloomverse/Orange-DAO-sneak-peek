@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8872464311043766230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6630130604550889903}
+  - component: {fileID: 6627342217864820364}
+  - component: {fileID: 514584677549165467}
+  - component: {fileID: 8295847977795704199}
+  m_Layer: 0
+  m_Name: LobbyTutorialManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6630130604550889903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8872464311043766230}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &6627342217864820364
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8872464311043766230}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &514584677549165467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8872464311043766230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a9ae8820b7dbe4db29071cd751b74d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AnnouncerClips:
+  - {fileID: 8300000, guid: 2c44cde052c272e4189c9ca36fdf6123, type: 3}
+  - {fileID: 8300000, guid: 8f6f56ff1a27a8748b09d01caec423ff, type: 3}
+  - {fileID: 8300000, guid: acbdb8bcce1504a4395cca5581b7381a, type: 3}
+  - {fileID: 8300000, guid: f5f58680814a9ce459f19c5fa9421505, type: 3}
+  - {fileID: 8300000, guid: 14283f746d4a24249941ed7f96ebf96e, type: 3}
+  - {fileID: 8300000, guid: 1754cd4e4528b714bbe73210a2e744c7, type: 3}
+  - {fileID: 8300000, guid: 816afc7698d88d64990af080d260472a, type: 3}
+  - {fileID: 8300000, guid: 165d1076e3a079e41ad0656193824ccb, type: 3}
+  - {fileID: 8300000, guid: 39132f73b7c558d47a79a26e352f8036, type: 3}
+  - {fileID: 8300000, guid: 62a4e1ed3f579b34682e75f02e6f939d, type: 3}
+  - {fileID: 8300000, guid: b62b443fbea4c784ba1c41fb64356d31, type: 3}
+  - {fileID: 8300000, guid: fda0fa0c745499040bf9797d02f2795b, type: 3}
+  m_ArrowPrefab: {fileID: 106724, guid: 52f2096a19da9419d9a502ae467655d4, type: 3}
+  m_WallPrefab: {fileID: 5410453368605702147, guid: bd2bf60408e8e5c489130beae5522032, type: 3}
+  m_LobbyTrigger: {fileID: 2269994033657337361, guid: a8ed599b6c947b44997108e4a2438430, type: 3}
+  m_AnnouncerText: {fileID: 0}
+  m_AudioSource: {fileID: 6627342217864820364}
+  m_AnnouncerSteps:
+  - This is the Bloomverse Lobby, it'll be full of side quests and power up challenges
+    sponsored by supportive brands.
+  - This is where you'll be able to socialize with other players, try out new products,
+    complete challenges and even claim things to level up your life outside the game!
+  - Let's give it a try! Find your way to the Happy Vibes store.
+  - Well done, Happy Vibes is big supporter of the Bloomverse cause and is always
+    here to make sure you're happy!
+  - Try interacting with main central console. This will always open up the brand's
+    webpage for you.
+  - It's always good to get friendly with the brands and products from Bloomverse.
+    You'll need that knowledge to claim the best rewards and to get clues to complete
+    your quests.
+  - Awesome! Now, let's try out their game! There's a reward in store for you.
+  - Well done! It looks like you earned some bloomies on your very first try. Happy
+    vibes is also sending you a discount voucher for their store. Please confirm
+    we have the right email to send that to.
+  - This email will be used for all redeemable prizes brands send your way. Don't
+    miss out!
+  - Perfect! You've done a lot of work today, soldier. You're definitely Bloomverse
+    material. You'll now proceed to your usual login interface where you'll be able
+    to play against other players, stay up to date with more demo challenges, and
+    even join our upcoming cash prize tournaments.
+  - You'll be needing bloomies to join those, so make sure to rack them up through
+    victories.
+  - Welcome to Bloomverse!
+--- !u!114 &8295847977795704199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8872464311043766230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 642420178
+  ObjectInterest: 1
+  Flags: 2305
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 514584677549165467}
